@@ -1,0 +1,255 @@
+@media  (max-width :768px)
+{
+
+    .container
+    {
+        width: 93%;
+    }
+   .header .row
+    {
+        flex-direction: column;
+        text-align: center;
+    }
+    .header .header-content
+    {
+        width: 100%;
+        order: 3;
+    }
+       .header .header-content h2
+       {
+
+        margin-top: 25px;
+       }
+
+    .header .img
+    {
+        width: 100% ;
+        order: 1;
+        margin: 20px 0;
+    }
+    .nav .nav-content
+    {
+        display: none;
+    }
+    .header .header-content .content-btn
+    {
+        flex-direction: column;
+        margin-top: 30px;
+    }
+    .header .header-content .content-btn .btn-prim
+    {
+        margin-bottom: 20px;
+        border-radius: 25px;
+        padding: 12px 20px;
+    }
+    .nav .dark .fa-bars
+    {
+    display: inline ;
+    margin-left: 20px;
+    }
+.chefs .chefs-card .card
+{
+    width: 100% ;
+}
+ .gallery .picture
+{
+    width: 100%
+}
+.gallery .gallery-picture
+{
+        height: auto;
+}
+
+.contact .details > div
+{
+    width: 100%;
+}
+.contact form .input-group input
+{
+    width: 100%;
+}
+
+footer .row :is(.contact-us , .social )
+{
+    width: 100%;
+}
+footer .row :is(.subscrib)
+{
+    width: 100%;
+
+}
+}
+
+
+
+
+@media (min-width : 768px) and (max-width : 1024px)
+{
+      .container
+    {
+        width: 85%;
+    }
+   .header .row
+    {
+        flex-direction: column;
+        text-align: center;
+    }
+    .header .header-content
+    {
+        width: 100%;
+        order: 3;
+    }
+       .header .header-content h2
+       {
+
+        margin-top: 25px;
+       }
+
+    .header .img
+    {
+        width: 100% ;
+        order: 1;
+        margin: 20px 0;
+    }
+    .nav .nav-content
+    {
+        display: none;
+    }
+    .header .header-content .content-btn
+    {
+        justify-content: center;
+        margin-top: 30px;
+    }
+    .header .header-content .content-btn .btn-prim
+    {
+
+        border-radius: 25px;
+        padding: 12px 20px;
+    }
+    .nav .dark .fa-bars
+    {
+    display: inline ;
+    margin-left: 20px;
+    }
+    .chefs .chefs-card .card
+    {
+        width: calc( calc(100% - var(--gap)) / 2);
+    }
+
+    .gallery .picture
+    {
+        width: calc( calc(100% - var(--gap1) ) / 2);
+    }
+    .gallery .gallery-picture
+    {
+         height: 1500px;
+    }
+    .gallery .gallery-picture .one
+    {
+        order: 1;
+    }
+    .gallery .gallery-picture .five
+    {
+        order: 2;
+    }
+    .gallery .gallery-picture .two
+    {
+        order: 3;
+    }
+     .gallery .gallery-picture .four
+    {
+        order: 4;
+    }
+     .gallery .gallery-picture .three
+    {
+        order: 5;
+    }
+     .gallery .gallery-picture .six
+    {
+        order: 6;
+    }
+     .gallery .gallery-picture .seven
+    {
+        order: 7;
+    }
+
+    .contact form .input-group input
+    {
+      width: 100%;
+    }
+    footer .row :is(.contact-us , .social )
+    {
+        width: calc( calc(100% - var(--gap)  ) / 2);
+        order: 1;
+    }
+    footer .row :is(.subscrib)
+    {
+        width: 100%;
+        order: 2;
+    }
+}
+
+
+
+
+
+
+
+
+
+@media (min-width : 768px) and (max-width : 800px)
+{
+    .gallery .gallery-picture
+    {
+         height: 1300px;
+    }
+}
+@media (min-width : 800px) and (max-width : 860px)
+{
+    .gallery .gallery-picture
+    {
+         height: 1400px;
+    }
+}
+@media (min-width : 860px) and (max-width : 920px)
+{
+    .gallery .gallery-picture
+    {
+         height: 1500px;
+    }
+}
+@media (min-width : 920px) and (max-width : 1024px)
+{
+    .gallery .gallery-picture
+    {
+         height: 1680px;
+    }
+}
+@media (min-width : 1025px) and (max-width : 1100px)
+{
+    .gallery .gallery-picture
+    {
+         height: 800px;
+    }
+}
+@media (min-width : 1101px) and (max-width : 1200px)
+{
+    .gallery .gallery-picture
+    {
+         height: 880px;
+    }
+}
+@media (min-width : 1201px) and (max-width : 1240px) 
+{
+    .gallery .gallery-picture
+    {
+         height: 900px;
+    }
+}
+@media (min-width : 1241px) and (max-width : 1300px) 
+{
+    .gallery .gallery-picture
+    {
+         height: 980px;
+    }
+}
